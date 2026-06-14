@@ -285,6 +285,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "pretty-hex"
+version = "0.4.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9a65843dfefbafd3c879c683306959a6de478443ffe9c9adf02f5976432402d7"
+
+[[package]]
 name = "prettyplease"
 version = "0.2.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -449,6 +455,7 @@ version = "0.1.0"
 dependencies = [
  "env_logger",
  "log",
+ "pretty-hex",
  "rand",
  "signal-hook",
 ]
